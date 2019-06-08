@@ -1820,3 +1820,9 @@ Icon for all respective meta
 .timeline-heading>h3>a:hover {
     color: white;
 }
+
+.timeline-list{
+  list-style:circle;
+  margin-left:10px;
+  text-align: justify;
+}
