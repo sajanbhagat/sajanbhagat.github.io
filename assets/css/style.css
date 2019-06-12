@@ -30,11 +30,12 @@
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Proxima Nova", sans-serif;
     line-height: 28px;
-    font-weight: 300;
-    font-size: 14px;
-    color:#282828;
+    color: #00253e;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 1.7em;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-overflow-scrolling: touch;
