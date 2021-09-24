@@ -7,11 +7,12 @@ body {
     font-family: 'Roboto Slab'
 }
 
-/* #complete-page {
-    background-color: #009570;
+#complete-page {
+    /* background-color: #009570;
     width: 100%;
-    height: 100%;
-} */
+    height: 100%; */
+    background-image: linear-gradient(160deg,#00ff84,#00d8a3, #009e77,#006149);
+}
 
 #common-frame {
     width: 380px;
@@ -77,4 +78,20 @@ label.job>span{
 }
 #dynamic-frame > section {
     display: none;
+}
+#social-links{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 30px;
+    color: white;
+    background-image: linear-gradient(185deg,#00ff84,#00d8a3, #009e77,#006149);
+    padding: 5px 0;
+    BORDER-RADIUS: 40px;
+}
+#social-links > ul {padding: 0px;}
+
+#social-links > ul>a>li {
+    margin: 0 5px;
+    color: white;
+    /* border: 1px solid; */
 }
