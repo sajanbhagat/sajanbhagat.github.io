@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="width=device-width, initial-scale=1.0"  content="Sajan Bhagat | Sajan Kumar Bhagat | Manager AI Labs at Subex | Professional Data Scientist and Computer Vision Enthusiast | Landmark Hackathon Winner | SoftBank Forex Algorithm Challenge - 3rd Prize">
+	<title>Sajan Kumar Bhagat</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto%20Slab:400,300,500,700,900' rel='stylesheet' type='text/css'>
+    <link href="static/assets/css/profile.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="complete-page">
+        <section id="common-frame">
+            <div id="avatar">
+                <img id="avatar-image" src="static/assets/images/profile/Avatar2.jpg">
+            </div>
+            <div id="basic-info">
+                <label class="name">Sajan Kumar Bhagat</label>
+                <label class="job"> 
+                    <span>Manager Artificial Intelligence Labs</span>
+                    <span>Subex Limited</span> 
+                </label>
+            </div>
+            <div id="page-links">
+                <div class="about_me"><a href="#about_me">About Me</a></div>
+                <div class="blogs"><a href="#blogs">Blogs</a></div>
+                <div class="contact"><a href="#contact">Contact</a></div>
+                <div class="experience"><a href="#experience">Experience</a></div>
+                <div class="project"><a href="#projects">Projects</a></div>
+                <div class="skills"><a href="#skills">Skills</a></div>
+                
+            </div>
+        </section>
+        <section id="dynamic-frame">
+            <section id="about_me">
+                About me template comes here
+            </section>
+            <section id="contact">
+                Contact me template comes here
+            </section>
+            <section id="experience">
+                Experience template comes here
+            </section>
+            <section id="projects">
+                Projects template comes here
+            </section>
+            <section id="skills">
+                Skills template comes here
+            </section>
+            <section id="blogs">
+                Blogs template comes here
+            </section>
+        </section>        
+    </div>
+</body>
+<script>
+    /*
+        Avatar images change code base
+    */
+    const cats = [
+        'static/assets/images/profile/Avatar1.jpg',
+        'static/assets/images/profile/Avatar2.jpg'
+    ]
+
+    const node = document.getElementById("avatar-image");
+
+    const cycleImages = (images, container, step) => {
+        images.forEach((image, index) => (
+        setTimeout(() => {
+            container.src = image 
+        }, step * (index + 1))
+    ))
+    setTimeout(() => cycleImages(images, container, step), step * images.length)
+    }
+
+    cycleImages(cats, node, 5000)
+</script>
+</html>

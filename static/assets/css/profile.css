@@ -1,0 +1,80 @@
+body {
+    background-color: #009570;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Slab'
+}
+
+/* #complete-page {
+    background-color: #009570;
+    width: 100%;
+    height: 100%;
+} */
+
+#common-frame {
+    width: 380px;
+    text-align: center;
+    height: 1007px;
+    background-color: white;
+    border-radius: 0 75px 0 0;
+    display: inline-block;
+}
+
+#avatar{
+    padding: 60px 0px 20px 0px;
+}
+
+#avatar > img {
+    width: 200px;
+    border-radius: 125px;
+}
+
+label.name{
+    width: 100%;
+    display: block;
+    margin: 10px 0 0px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #009570;
+}
+
+label.job{
+    width: 100%;
+    display: block;
+    margin: 5px 0 0px 0;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #02b185;
+}
+label.job>span{
+    display: block;
+}
+
+#page-links{
+    display: block;
+    margin: 30px 0;
+}
+#page-links > div {
+    height: 50px;
+    background-color: #009570;
+    color: white;
+    margin: 15px 30px;
+    height: inherit;
+    padding: 20px;
+    border-radius: 15px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+#page-links > div > a {
+    color: white;
+    text-decoration: none;
+}
+
+#dynamic-frame {
+    display: inline-block;
+}
+#dynamic-frame > section {
+    display: none;
+}
