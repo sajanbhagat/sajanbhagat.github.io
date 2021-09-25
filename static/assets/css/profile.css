@@ -15,7 +15,7 @@ body {
 }
 
 #common-frame {
-    width: 380px;
+    width: 21%;
     text-align: center;
     height: 1007px;
     background-color: white;
@@ -75,9 +75,12 @@ label.job>span{
 
 #dynamic-frame {
     display: inline-block;
+    width: 79%;
+    height: 1007px;
+    position: absolute;
 }
 #dynamic-frame > section {
-    display: none;
+    /* display: none; */
 }
 #social-links{
     font-size: 20px;
@@ -94,4 +97,50 @@ label.job>span{
     margin: 0 5px;
     color: white;
     /* border: 1px solid; */
+}
+.active {
+    display: inherit;
+}
+.hidden {
+    display: none;
+}
+section#about_me {
+    margin: 25px 15px;
+}
+
+.header-image {
+    text-align: -webkit-center;
+}
+
+.content {
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: white;
+    padding: 20px 40px;
+} 
+.content > p > a {
+    color: white;
+}
+
+ul.list-check {
+    margin-top: 10px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.list-check li{
+    position: relative;
+    font-size: 17px;
+    line-height: 32px;
+    width: 50%;
+    float: left;
+}
+ul.list-check li::before {
+    content: "\f00c";
+    font-family: fontawesome;
+    color: #6cffcb;
+    margin-right: 10px;
 }
