@@ -75,7 +75,100 @@
                 Contact me template comes here
             </section>
             <section id="experience" class="hidden">
-                Experience template comes here
+                <div class="header-image">
+                    <img src="/static/assets/images/profile/amico.png"/>
+                </div>
+                <div class="experience-groups">
+                    <div class="company">
+                        <div class="header">
+                            <div class="left">Subex Limited</div>
+                            <div class="right">October 2019 - Presently Working Here</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li>Leading team of data-scientists and engineers to create Hypersense AI
+                                    Studio </li>
+                                <li>Building an OCR Solution for digital automation of lease contract 
+                                    management system for Optus to replace legacy system</li>
+                                <li>Improved efficiency of existing fraud management system by 8.2% by 
+                                    building Telecom Scam Detection Model to identify scammers in real-time</li>
+                                <li>Reduced the handset fraud by 6.43% by building handset fraud model for 
+                                    telecom customer</li>
+                                <li>Collaborated with Subex HR Management to develop an employee attrition 
+                                    model to improve employee retention in Subex</li>
+                                <li>Leading data science community of practice in Subex</li>
+                                <li>Collaborating with IDCentral team to create data science differentiation by 
+                                    creating models like Income Verification, Address Validation & Customer 
+                                    Credit Score etc</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <div class="header">
+                            <div class="left">VMware India</div>
+                            <div class="right">May 2019 - October 2019</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li> Increased the customer base for vSphere Platinum by 5X using propensity to 
+                                    up-sell model </li>
+                                <li>30% customer upgraded to higher vSphere version as a result of propensity 
+                                    to upgrade vSphere model</li>
+                                <li>Designed and built low touch and no touch system for Deal management and 
+                                    deal approval</li>
+                                <li>NLP and robotic process automation based cognitive bot to automate ticket 
+                                    resolution, honoured with "Best Digital Transformation Project" in Global 
+                                    OpEx2020</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <div class="header">
+                            <div class="left">Decision Minds</div>
+                            <div class="right">October 2016 - April 2019</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li> Successfully upgraded 15% customers out of 38K ranked customers from 
+                                    propensity to upgrade model for vSphere
+                                    </li>
+                                <li> An Impact of $144 MM per year has been 
+                                    generated from List Price Optimization 
+                                    (LPO) by optimizing the price for 23K 
+                                    SKU's</li>
+                                <li>Developed Discount Guidance Tool to 
+                                    facilitate Deal Management Team to offer a 
+                                    range of discounts, for different 
+                                    combination of drivers of discounts 
+                                    obtained from Discount Driver Analysis</li>
+                                <li>Achieved a Lift of 8x in top 2 percentile for 
+                                    Partner Propensity to Sell and captured 
+                                    not-transacting partner that attributed $ 
+                                    7.68 MM per quarter on average</li>
+                                <li>Built an in-house web crawler tool 
+                                    (Prospector) for VMware which reduced 
+                                    the quarterly spent made by VMware for 
+                                    external data</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="company">
+                        <div class="header">
+                            <div class="left">Aranoah Technolohgies PVT LTD</div>
+                            <div class="right">Setemper 2014 - October 2016</div>
+                        </div>
+                        <div class="achievements">
+                            <ul>
+                                <li>Optimized marketing retention strategy to 
+                                    retain identified customers that can 
+                                    possibly iterate in future by predicting 
+                                    customer lifetime value (CLTV)</li>
+                                <li>Performed Survey Analytics and multiregression models to understand drivers 
+                                    of NPS (Net Promoter Score)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="projects" class="hidden">
                 Projects template comes here
@@ -90,25 +183,6 @@
     </div>
 </body>
 <script>
-    /*
-        Avatar images change code base
-    */
-    const cats = [
-        'static/assets/images/profile/Avatar1.jpg',
-        'static/assets/images/profile/Avatar2.jpg'
-    ]
-
-    const node = document.getElementById("avatar-image");
-
-    const cycleImages = (images, container, step) => {
-        images.forEach((image, index) => (
-        setTimeout(() => {
-            container.src = image 
-        }, step * (index + 1))
-    ))
-    setTimeout(() => cycleImages(images, container, step), step * images.length)
-    }
-
-    cycleImages(cats, node, 5000)
 </script>
+<script src="static/assets/js/index.js"></script>
 </html>

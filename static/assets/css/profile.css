@@ -11,7 +11,7 @@ body {
     /* background-color: #009570;
     width: 100%;
     height: 100%; */
-    background-image: linear-gradient(160deg,#00ff84,#00d8a3, #009e77,#006149);
+    background-image: linear-gradient(225deg,#00ff84,#00d8a3, #009e77,#006149);
 }
 
 #common-frame {
@@ -143,4 +143,32 @@ ul.list-check li::before {
     font-family: fontawesome;
     color: #6cffcb;
     margin-right: 10px;
+}
+
+section#experience {
+    margin: 25px 15px;
+}
+.experience-groups {
+    padding: 10px 30px;
+    color: white;
+}
+.header {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+}
+
+.left {
+    display: inline-block;
+    float: left;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+}
+
+.achievements {
+    display: inline-block;
+    /* margin: 15px 0px; */
 }
