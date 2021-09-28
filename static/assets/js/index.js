@@ -1,7 +1,15 @@
 /*
     Avatar images change code base
 */
-location.href = location.href;
+
+window.addEventListener('load', (event) => {
+    console.log('page is fully loaded');
+    var currentURL = window.location.href;
+    var index = currentURL.indexOf("#");
+    if(index > -1) {
+         window.location.href = currentURL.substring(0, index);
+    }
+});
 
 const cats = [
     'static/assets/images/profile/Avatar1.jpg',
