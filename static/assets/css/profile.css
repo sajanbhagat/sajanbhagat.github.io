@@ -172,3 +172,40 @@ section#experience {
     display: inline-block;
     /* margin: 15px 0px; */
 }
+
+section#blogs {
+    margin: 40px 15px 15px 0px;
+}
+section#contact {
+    margin: 40px 15px 15px 0px;
+}
+/* section#experience {
+    margin: 40px 15px 15px 0px; */
+}
+section#skills {
+    margin: 40px 15px 15px 0px;
+}
+section#projects {
+    margin: 40px 15px 15px 0px;
+}
+
+.blog-image{
+    height: 240px;
+    text-align: center;
+}
+
+.blog-listing-group{
+    text-align: center;
+}
+
+.blog-listing {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: #009570;
+    font-size: 18px;
+    height: 320px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 20px;
+}
